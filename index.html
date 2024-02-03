@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Formulário de Reserva de Viagem Avançado</title>
+
+  </head>
+
+  <body>
+
+    <h1>Reserva de Viagem</h1>
+
+
+
+    <form action="" method="get">
+
+      <fieldset>
+
+        <legend>Dados do Comprador:</legend>
+
+
+
+        <label>Nome</label>
+
+        <br />
+
+        <input type="text" name="nome" />
+
+        <br /><br />
+
+
+
+        <label>Email</label>
+
+        <br />
+
+        <input type="email" name="email" />
+
+        <br /><br />
+
+      </fieldset>
+
+      <br /><br />
+
+
+
+      <fieldset>
+
+        <legend>Quais Serviços Deseja Contratar?</legend>
+
+        <label>Serviços Desejados</label>
+
+        <br />
+
+        <input type="checkbox" name="passagens" value="passagens" />Compra de
+
+        Passagens
+
+        <br />
+
+        <input type="checkbox" name="hospedagem" value="hospedagem" />Reserva de
+
+        Hospedagem
+
+        <br />
+
+        <input
+
+          type="checkbox"
+
+          name="aluguelVeiculo"
+
+          value="aluguelVeiculo"
+
+        />Aluguel de Veículos
+
+      </fieldset>
+
+      <br /><br />
+
+
+
+      <fieldset>
+
+        <legend>Escolha sua Forma de Pagamento:</legend>
+
+        <label>Forma de Pagamento</label>
+
+        <br />
+
+        <input type="radio" name="formaPagamento" />Cartão de Crédito
+
+        <br />
+
+        <input type="radio" name="formaPagamento" />Boleto
+
+        <br />
+
+        <input type="radio" name="formaPagamento" />Pix
+
+      </fieldset>
+
+      <br /><br />
+
+
+
+      <fieldset>
+
+        <legend>Selecione um Prazo para Pagamento:</legend>
+
+        <select name="prazoPagamento">
+
+          <option value="" disabled selected>Escolha uma opção</option>
+
+          <option value="aVista">Á Vista</option>
+
+          <option value="5x">5x Sem Juros</option>
+
+          <option value="10x">10x Sem Juros</option>
+
+        </select>
+
+      </fieldset>
+
+      <br /><br />
+
+
+
+      <label>Comentário</label>
+
+      <br />
+
+      <textarea name="mensagem" cols="15" rows="5"></textarea>
+
+      <br /><br />
+
+
+
+      <input type="submit" />
+
+    </form>
+
+  </body>
+
+</html>
